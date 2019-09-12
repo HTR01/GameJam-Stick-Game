@@ -6,14 +6,14 @@ public class RunDownLane : MonoBehaviour
 {
 
 
-    public float speed = 20f;
-    public Rigidbody rb;
+   // public float speed = 20f;
+   // public Rigidbody rb;
     public int damage = 1;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb.velocity = transform.right * speed;
+       // rb.velocity = transform.right * speed;
     }
 
 
