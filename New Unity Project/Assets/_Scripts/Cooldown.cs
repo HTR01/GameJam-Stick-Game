@@ -11,6 +11,10 @@ public class Cooldown : MonoBehaviour
     public GameObject stickUnit;
     public GameObject stickUnit2;
 
+    public Transform LaunchPoint;
+
+    public Transform LaunchPoint2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +30,7 @@ public class Cooldown : MonoBehaviour
             {
                 print("Spawned unit. Cooldown started.");
                 nextFireTime = Time.time + cooldownTime;
-                Instantiate(stickUnit);
+                Instantiate(stickUnit, LaunchPoint.position, LaunchPoint.rotation);
             }
         }
 
@@ -37,7 +41,7 @@ public class Cooldown : MonoBehaviour
             {
                 print("Spawned unit. Cooldown started.");
                 nextFireTime2 = Time.time + cooldownTime2;
-                Instantiate(stickUnit2);
+                Instantiate(stickUnit2, LaunchPoint2.position, LaunchPoint2.rotation);
             }
         }
     }

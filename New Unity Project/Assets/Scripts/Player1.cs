@@ -19,7 +19,7 @@ public class Player1 : MonoBehaviour
     // Players Input Controls
     public void CheckForPlayerInput()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             if (playerPosition < 3)
             {
@@ -27,7 +27,7 @@ public class Player1 : MonoBehaviour
             }
             
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             if (playerPosition > -3)
             {

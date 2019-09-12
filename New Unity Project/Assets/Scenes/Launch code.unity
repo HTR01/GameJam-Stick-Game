@@ -423,13 +423,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462167923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.7071064, z: -0, w: 0.7071072}
   m_LocalPosition: {x: 1.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797242595}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!1 &870007495
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,9 +442,9 @@ GameObject:
   - component: {fileID: 870007498}
   - component: {fileID: 870007497}
   - component: {fileID: 870007496}
-  - component: {fileID: 870007500}
   - component: {fileID: 870007501}
   - component: {fileID: 870007502}
+  - component: {fileID: 870007500}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -534,12 +534,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 870007495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c7af83ab122ecb48953f2c8170f44ac, type: 3}
+  m_Script: {fileID: 11500000, guid: b392b5b7f1ec14b42ba748d40af6840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LaunchPoint: {fileID: 1368986301}
-  UnitPrefab: {fileID: 243395715957644345, guid: dd778243b8363c34f98fe85b1f0c68a5,
+  cooldownTime: 2
+  cooldownTime2: 2
+  stickUnit: {fileID: 5557531791022177694, guid: 93887465b2bdb8b44a8ace783cf988d2,
     type: 3}
+  stickUnit2: {fileID: 0}
+  LaunchPoint: {fileID: 1368986301}
+  LaunchPoint2: {fileID: 0}
 --- !u!114 &870007501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,13 +688,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368986300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 870007499}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!1 &1460513475
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,12 +925,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1797242589}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03100894e21e02140a6495db330f6aa8, type: 3}
+  m_Script: {fileID: 11500000, guid: b392b5b7f1ec14b42ba748d40af6840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LaunchPoint: {fileID: 462167924}
-  UnitPrefab: {fileID: 243395715957644345, guid: dd778243b8363c34f98fe85b1f0c68a5,
+  cooldownTime: 2
+  cooldownTime2: 2
+  stickUnit: {fileID: 0}
+  stickUnit2: {fileID: 3302351973282196120, guid: 552402cc93fb5fe4bb56573decba77a7,
     type: 3}
+  LaunchPoint: {fileID: 0}
+  LaunchPoint2: {fileID: 462167924}
 --- !u!65 &1797242592
 BoxCollider:
   m_ObjectHideFlags: 0
