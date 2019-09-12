@@ -393,13 +393,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364348858}
-  m_LocalRotation: {x: 0.13440424, y: -0, z: -0, w: 0.9909266}
-  m_LocalPosition: {x: 0, y: 6.84, z: -30.9}
+  m_LocalRotation: {x: 0.7098675, y: -0, z: -0, w: 0.70433533}
+  m_LocalPosition: {x: 0, y: 18.5, z: -0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 15.448001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90.448, y: -0.000015258789, z: -0.000015258789}
 --- !u!1 &462167923
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,11 +537,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b392b5b7f1ec14b42ba748d40af6840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 2
-  cooldownTime2: 2
+  cooldownTime: 0.5
+  cooldownTime2: 0.5
   stickUnit: {fileID: 5557531791022177694, guid: 93887465b2bdb8b44a8ace783cf988d2,
     type: 3}
+  stickUnita: {fileID: 0}
+  stickUnitb: {fileID: 0}
   stickUnit2: {fileID: 0}
+  stickUnit2a: {fileID: 0}
+  stickUnit2b: {fileID: 0}
   LaunchPoint: {fileID: 1368986301}
   LaunchPoint2: {fileID: 0}
 --- !u!114 &870007501
@@ -557,7 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 870007502}
-  MoveDistance: 1
+  MoveDistance: 5
 --- !u!54 &870007502
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -928,11 +932,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b392b5b7f1ec14b42ba748d40af6840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 2
-  cooldownTime2: 2
+  cooldownTime: 0.5
+  cooldownTime2: 0.5
   stickUnit: {fileID: 0}
+  stickUnita: {fileID: 0}
+  stickUnitb: {fileID: 0}
   stickUnit2: {fileID: 3302351973282196120, guid: 552402cc93fb5fe4bb56573decba77a7,
     type: 3}
+  stickUnit2a: {fileID: 0}
+  stickUnit2b: {fileID: 0}
   LaunchPoint: {fileID: 0}
   LaunchPoint2: {fileID: 462167924}
 --- !u!65 &1797242592

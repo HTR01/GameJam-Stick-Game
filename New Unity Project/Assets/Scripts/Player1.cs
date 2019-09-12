@@ -6,7 +6,7 @@ public class Player1 : MonoBehaviour
 {
     public Rigidbody rb;
     private int playerPosition = 0;
-    public float MoveDistance = 1;
+    public float MoveDistance = 5;
 
 
     
@@ -21,7 +21,7 @@ public class Player1 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-            if (playerPosition < 3)
+            if (playerPosition < 1)
             {
                 MovePaddleUp();
             }
@@ -29,7 +29,7 @@ public class Player1 : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            if (playerPosition > -3)
+            if (playerPosition > -1)
             {
                 MovePaddleDown();
             }

@@ -21,7 +21,7 @@ public class Player2 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (playerPosition < 3)
+            if (playerPosition < 1)
             {
                 MovePaddleUp();
             }
@@ -29,7 +29,7 @@ public class Player2 : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (playerPosition > -3)
+            if (playerPosition > -1)
             {
                 MovePaddleDown();
             }

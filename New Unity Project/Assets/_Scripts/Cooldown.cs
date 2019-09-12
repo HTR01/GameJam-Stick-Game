@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class Cooldown : MonoBehaviour
 {
-    public float cooldownTime = 2;
+    public float cooldownTime = 0.5f;
     float nextFireTime = 0;
-    public float cooldownTime2 = 2;
+    public float cooldownTime2 = 0.5f;
     float nextFireTime2 = 0;
+
     public GameObject stickUnit;
+    public GameObject stickUnita;
+    public GameObject stickUnitb;
+
     public GameObject stickUnit2;
+    public GameObject stickUnit2a;
+    public GameObject stickUnit2b;
 
     public Transform LaunchPoint;
 
     public Transform LaunchPoint2;
+
+
 
     // Start is called before the first frame update
     void Start()
