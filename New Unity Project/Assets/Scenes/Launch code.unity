@@ -240,11 +240,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 348005298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8028c17448fbdb46abb98bf4736ac31, type: 3}
+  m_Script: {fileID: 11500000, guid: f6f587ce2fb452b4683b7fffab99a0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  deathEffect: {fileID: 0}
+  teamname: Red
+  HPMan: {fileID: 1413073178}
 --- !u!65 &348005300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -836,11 +836,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 900297430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8028c17448fbdb46abb98bf4736ac31, type: 3}
+  m_Script: {fileID: 11500000, guid: f6f587ce2fb452b4683b7fffab99a0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  deathEffect: {fileID: 0}
+  teamname: Blue
+  HPMan: {fileID: 1413073178}
 --- !u!1 &1368986300
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413073180}
   - component: {fileID: 1413073179}
+  - component: {fileID: 1413073178}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -888,6 +889,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1413073178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413073177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6115f0846a9bb42408655e5d816acbdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castle1HP: 5
+  castle2HP: 5
 --- !u!114 &1413073179
 MonoBehaviour:
   m_ObjectHideFlags: 0
