@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer.text = "" + Mathf.RoundToInt(Time.time);
+        timer.text = "Time: " + Mathf.RoundToInt(Time.time);
 
         if (castle1HP.text == "0")
         {
