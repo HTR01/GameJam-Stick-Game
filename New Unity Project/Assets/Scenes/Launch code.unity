@@ -697,7 +697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376472043}
   m_LocalRotation: {x: -0.3535527, y: 0.61237276, z: -0.3535527, w: -0.612373}
-  m_LocalPosition: {x: 17.58, y: 9.42, z: 0}
+  m_LocalPosition: {x: 14.67, y: 13.19, z: 0}
   m_LocalScale: {x: 1.9776121, y: 0.8016758, z: 1.8403873}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2212,7 +2212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2486,7 +2486,7 @@ MonoBehaviour:
   stickUnit: {fileID: 0}
   stickUnita: {fileID: 0}
   stickUnitb: {fileID: 0}
-  stickUnit2: {fileID: 3302351973282196120, guid: 552402cc93fb5fe4bb56573decba77a7,
+  stickUnit2: {fileID: 5557531791022177694, guid: ef8bdb8be67a6e242af82c5408f8204c,
     type: 3}
   stickUnit2a: {fileID: 0}
   stickUnit2b: {fileID: 0}
@@ -2738,7 +2738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0.020439148, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
