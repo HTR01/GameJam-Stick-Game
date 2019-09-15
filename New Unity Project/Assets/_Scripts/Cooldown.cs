@@ -10,12 +10,10 @@ public class Cooldown : MonoBehaviour
     float nextFireTime2 = 0;
 
     public GameObject stickUnit;
-    public GameObject stickUnita;
-    public GameObject stickUnitb;
+   
 
     public GameObject stickUnit2;
-    public GameObject stickUnit2a;
-    public GameObject stickUnit2b;
+    
 
     public Transform LaunchPoint;
 

@@ -1274,15 +1274,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b392b5b7f1ec14b42ba748d40af6840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 0.5
-  cooldownTime2: 0.5
+  cooldownTime: 0.4
+  cooldownTime2: 0.4
   stickUnit: {fileID: 5557531791022177694, guid: 93887465b2bdb8b44a8ace783cf988d2,
     type: 3}
-  stickUnita: {fileID: 0}
-  stickUnitb: {fileID: 0}
   stickUnit2: {fileID: 0}
-  stickUnit2a: {fileID: 0}
-  stickUnit2b: {fileID: 0}
   LaunchPoint: {fileID: 1368986301}
   LaunchPoint2: {fileID: 0}
 --- !u!114 &870007501
@@ -2674,15 +2670,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b392b5b7f1ec14b42ba748d40af6840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 0.5
-  cooldownTime2: 0.5
+  cooldownTime: 0.4
+  cooldownTime2: 0.4
   stickUnit: {fileID: 0}
-  stickUnita: {fileID: 0}
-  stickUnitb: {fileID: 0}
   stickUnit2: {fileID: 5557531791022177694, guid: ef8bdb8be67a6e242af82c5408f8204c,
     type: 3}
-  stickUnit2a: {fileID: 0}
-  stickUnit2b: {fileID: 0}
   LaunchPoint: {fileID: 0}
   LaunchPoint2: {fileID: 462167924}
 --- !u!65 &1797242592
